@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8637A"
+    android:orientation="vertical"
+    tools:context=".anasayfa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageEgzersizId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/egzersiz" />
+        <Button
+            android:id="@+id/BtnEgzersizler"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#6C8E9E"
+            android:text="Egzersizler"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageKaloriId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/calorie" />
+        <Button
+            android:id="@+id/BtnKalori"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#6C8E9E"
+            android:text="Kalori Hesaplayıcı"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageVucutId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/body" />
+        <Button
+            android:id="@+id/BtnVucut"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#6C8E9E"
+            android:text="Vücudum"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

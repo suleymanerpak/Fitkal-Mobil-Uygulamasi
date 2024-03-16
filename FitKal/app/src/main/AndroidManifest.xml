@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitkal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitKal">
+        <activity
+            android:name=".gun15"
+            android:exported="false" />
+        <activity
+            android:name=".gun14"
+            android:exported="false" />
+        <activity
+            android:name=".gun13"
+            android:exported="false" />
+        <activity
+            android:name=".gun12"
+            android:exported="false" />
+        <activity
+            android:name=".gun11"
+            android:exported="false" />
+        <activity
+            android:name=".gun10"
+            android:exported="false" />
+        <activity
+            android:name=".gun9"
+            android:exported="false" />
+        <activity
+            android:name=".gun8"
+            android:exported="false" />
+        <activity
+            android:name=".gun7"
+            android:exported="false" />
+        <activity
+            android:name=".gun6"
+            android:exported="false" />
+        <activity
+            android:name=".gun5"
+            android:exported="false" />
+        <activity
+            android:name=".gun4"
+            android:exported="false" />
+        <activity
+            android:name=".gun3"
+            android:exported="false" />
+        <activity
+            android:name=".gun2"
+            android:exported="false" />
+        <activity
+            android:name=".gun1"
+            android:exported="false" />
+        <activity
+            android:name=".egzersizanasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".vucudum"
+            android:exported="false" />
+        <activity
+            android:name=".kalorihesaplayici"
+            android:exported="false" />
+        <activity
+            android:name=".anasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
